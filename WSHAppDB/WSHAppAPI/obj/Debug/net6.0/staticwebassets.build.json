@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4JIQ4WTsV0TgxVeK5kXftFt7l7rtjf8R5BCslWsbujM=",
+  "Source": "WSHAppAPI",
+  "BasePath": "_content/WSHAppAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

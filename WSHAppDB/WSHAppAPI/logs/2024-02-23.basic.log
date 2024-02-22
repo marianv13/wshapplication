@@ -1,0 +1,85 @@
+2024-02-23 00:00:27.4372|INFO|11|WSHAppDB.Model.WSHDBContext|MigrateAsync: 20240222225921_InitialCreate 
+2024-02-23 00:00:28.0705|INFO|5|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7075 
+2024-02-23 00:00:28.0784|INFO|5|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5214 
+2024-02-23 00:00:28.0784|INFO|5|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-23 00:00:28.0784|INFO|5|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-23 00:00:28.0784|INFO|5|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\ 
+2024-02-23 00:00:42.2341|ERROR|3|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s)
+   at WSHAppAPI.Controllers.Migr.InitWSHTransactionAsync(ILogger logger) in C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\Controllers\InitDbController.cs:line 60
+   at WSHAppAPI.Controllers.InitDbController.LoadDataAsync() in C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\Controllers\InitDbController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-23 00:01:19.6296|INFO|24|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2024-02-23 00:02:16.9483|INFO|12|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7075 
+2024-02-23 00:02:16.9925|INFO|12|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5214 
+2024-02-23 00:02:16.9974|INFO|12|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-23 00:02:16.9974|INFO|12|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-23 00:02:16.9974|INFO|12|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\ 
+2024-02-23 00:02:24.4151|ERROR|3|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s)
+   at WSHAppAPI.Controllers.Migr.InitWSHTransactionAsync(ILogger logger) in C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\Controllers\InitDbController.cs:line 60
+   at WSHAppAPI.Controllers.InitDbController.LoadDataAsync() in C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\Controllers\InitDbController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-23 00:03:01.9767|INFO|22|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2024-02-23 00:03:11.2881|INFO|8|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7075 
+2024-02-23 00:03:11.3386|INFO|8|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5214 
+2024-02-23 00:03:11.3386|INFO|8|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-23 00:03:11.3386|INFO|8|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-23 00:03:11.3386|INFO|8|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\ 
+2024-02-23 00:03:18.1963|ERROR|5|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.FormatException: String '' was not recognized as a valid DateTime.
+   at System.DateTime.Parse(String s)
+   at WSHAppAPI.Controllers.Migr.InitWSHTransactionAsync(ILogger logger) in C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\Controllers\InitDbController.cs:line 60
+   at WSHAppAPI.Controllers.InitDbController.LoadDataAsync() in C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\Controllers\InitDbController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-23 00:04:13.7632|INFO|16|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2024-02-23 00:04:23.2785|INFO|9|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7075 
+2024-02-23 00:04:23.3304|INFO|9|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5214 
+2024-02-23 00:04:23.3304|INFO|9|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-23 00:04:23.3377|INFO|9|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-23 00:04:23.3377|INFO|9|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\ 
+2024-02-23 00:04:40.7200|INFO|22|WSHAppAPI.Controllers.InitDbController|Init.WSHTransaction:3 db 
+2024-02-23 00:06:11.2254|INFO|19|Microsoft.Hosting.Lifetime|Application is shutting down... 
+2024-02-23 00:06:22.2827|INFO|8|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7075 
+2024-02-23 00:06:22.3341|INFO|8|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5214 
+2024-02-23 00:06:22.3419|INFO|8|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-23 00:06:22.3419|INFO|8|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-23 00:06:22.3419|INFO|8|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\ 

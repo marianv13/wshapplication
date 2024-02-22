@@ -1,0 +1,270 @@
+2024-02-22 23:35:34.5183 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:35:34.5515 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:35:34.5515 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:35:34.5515 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:35:34.5720 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:35:34.6229 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:35:34.6229 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:35:34.6229 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:35:34.6427 Info Configuration initialized.
+2024-02-22 23:35:35.0868 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:35:35.1097 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:35:35.1097 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:35:35.2329 Info Shutdown() called. Logger closing...
+2024-02-22 23:35:35.2329 Info Closing old configuration.
+2024-02-22 23:35:35.2867 Info Logger has been closed down.
+2024-02-22 23:36:53.0888 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:36:53.1262 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:36:53.1262 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:36:53.1262 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:36:53.1498 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:36:53.1900 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:36:53.1975 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:36:53.1975 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:36:53.2142 Info Configuration initialized.
+2024-02-22 23:36:53.7780 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:36:53.8245 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:36:53.8245 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:40:04.9223 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:40:04.9431 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:40:04.9431 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:40:04.9431 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:40:04.9641 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:40:04.9861 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:40:04.9861 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:40:04.9943 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:40:04.9943 Info Configuration initialized.
+2024-02-22 23:40:05.2202 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:40:05.2413 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:40:05.2413 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:40:05.3517 Info Shutdown() called. Logger closing...
+2024-02-22 23:40:05.3517 Info Closing old configuration.
+2024-02-22 23:40:05.3960 Info Logger has been closed down.
+2024-02-22 23:42:57.2237 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:42:57.2369 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:42:57.2369 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:42:57.2369 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:42:57.2538 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:42:57.2701 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:42:57.2768 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:42:57.2768 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:42:57.2768 Info Configuration initialized.
+2024-02-22 23:42:57.4074 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:42:57.4380 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:42:57.4380 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:42:57.5019 Info Shutdown() called. Logger closing...
+2024-02-22 23:42:57.5019 Info Closing old configuration.
+2024-02-22 23:42:57.5413 Info Logger has been closed down.
+2024-02-22 23:44:30.1634 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:44:30.2249 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:44:30.2249 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:44:30.2249 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:44:30.2716 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:44:30.3289 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:44:30.3469 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:44:30.3469 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:44:30.3886 Info Configuration initialized.
+2024-02-22 23:44:31.1472 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:44:31.1913 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:44:31.1913 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:45:42.2126 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:45:42.2756 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:45:42.2756 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:45:42.2756 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:45:42.3185 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:45:42.3693 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:45:42.3881 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:45:42.3881 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:45:42.4229 Info Configuration initialized.
+2024-02-22 23:45:43.1449 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:45:43.2576 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:45:43.2603 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:46:09.2352 Info Shutdown() called. Logger closing...
+2024-02-22 23:46:09.2352 Info Closing old configuration.
+2024-02-22 23:46:09.2557 Info Logger has been closed down.
+2024-02-22 23:46:37.0026 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:46:37.0476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:46:37.0476 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:46:37.0476 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:46:37.0850 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:46:37.1389 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:46:37.1560 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:46:37.1560 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:46:37.2191 Info Configuration initialized.
+2024-02-22 23:46:37.8222 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:46:37.8658 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:46:37.8658 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:48:39.7216 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:48:39.7769 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:48:39.7769 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:48:39.7769 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:48:39.8160 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:48:39.8638 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:48:39.8813 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:48:39.8813 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:48:39.9243 Info Configuration initialized.
+2024-02-22 23:48:40.5507 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:48:40.5829 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:48:40.5829 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:50:07.8358 Info Shutdown() called. Logger closing...
+2024-02-22 23:50:07.8358 Info Closing old configuration.
+2024-02-22 23:50:07.8557 Info Logger has been closed down.
+2024-02-22 23:50:17.3656 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:50:17.3903 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:50:17.3903 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:50:17.3903 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:50:17.4167 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:50:17.4351 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:50:17.4351 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:50:17.4351 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:50:17.4544 Info Configuration initialized.
+2024-02-22 23:50:17.5983 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:50:17.6324 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:50:17.6324 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:50:17.7052 Info Shutdown() called. Logger closing...
+2024-02-22 23:50:17.7052 Info Closing old configuration.
+2024-02-22 23:50:17.7494 Info Logger has been closed down.
+2024-02-22 23:51:24.4559 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:51:24.4996 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:51:24.4996 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:51:24.4996 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:51:24.5336 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:51:24.5860 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:51:24.6049 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:51:24.6049 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:51:24.6305 Info Configuration initialized.
+2024-02-22 23:51:25.4252 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:51:25.4660 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:51:25.4660 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:54:01.1076 Info Shutdown() called. Logger closing...
+2024-02-22 23:54:01.1076 Info Closing old configuration.
+2024-02-22 23:54:01.1255 Info Logger has been closed down.
+2024-02-22 23:55:31.9381 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:55:31.9486 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:55:31.9486 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:55:31.9486 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:55:31.9629 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:55:31.9782 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:55:31.9782 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:55:31.9782 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:55:31.9950 Info Configuration initialized.
+2024-02-22 23:55:32.1096 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:55:32.1271 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:55:32.1271 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:55:32.1791 Info Shutdown() called. Logger closing...
+2024-02-22 23:55:32.1791 Info Closing old configuration.
+2024-02-22 23:55:32.2220 Info Logger has been closed down.
+2024-02-22 23:55:54.1122 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:55:54.1302 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:55:54.1302 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:55:54.1302 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:55:54.1456 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:55:54.1687 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:55:54.1687 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:55:54.1687 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:55:54.1894 Info Configuration initialized.
+2024-02-22 23:55:54.3102 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:55:54.3298 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:55:54.3298 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:55:54.3774 Info Shutdown() called. Logger closing...
+2024-02-22 23:55:54.3774 Info Closing old configuration.
+2024-02-22 23:55:54.4125 Info Logger has been closed down.
+2024-02-22 23:59:20.7518 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-22 23:59:20.7654 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-22 23:59:20.7654 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-22 23:59:20.7654 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-22 23:59:20.7884 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-22 23:59:20.8102 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:59:20.8102 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-22 23:59:20.8102 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-22 23:59:20.8350 Info Configuration initialized.
+2024-02-22 23:59:20.9810 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-22 23:59:21.0011 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:59:21.0011 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-22 23:59:21.0506 Info Shutdown() called. Logger closing...
+2024-02-22 23:59:21.0506 Info Closing old configuration.
+2024-02-22 23:59:21.0844 Info Logger has been closed down.
+2024-02-23 00:00:23.4693 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 00:00:23.5222 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 00:00:23.5353 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 00:00:23.5422 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 00:00:23.6023 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 00:00:23.6643 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:00:23.6934 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 00:00:23.6934 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 00:00:23.7330 Info Configuration initialized.
+2024-02-23 00:00:24.5521 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:00:24.5978 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:00:24.5978 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:01:19.6894 Info Shutdown() called. Logger closing...
+2024-02-23 00:01:19.6894 Info Closing old configuration.
+2024-02-23 00:01:19.7048 Info Logger has been closed down.
+2024-02-23 00:02:13.4568 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 00:02:13.5059 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 00:02:13.5059 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 00:02:13.5059 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 00:02:13.5794 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 00:02:13.6534 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:02:13.6741 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 00:02:13.6741 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 00:02:13.7122 Info Configuration initialized.
+2024-02-23 00:02:14.3366 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:02:14.3784 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:02:14.3784 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:03:02.0319 Info Shutdown() called. Logger closing...
+2024-02-23 00:03:02.0319 Info Closing old configuration.
+2024-02-23 00:03:02.0516 Info Logger has been closed down.
+2024-02-23 00:03:07.3427 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 00:03:07.3957 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 00:03:07.3957 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 00:03:07.3957 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 00:03:07.4462 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 00:03:07.5054 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:03:07.5236 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 00:03:07.5236 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 00:03:07.5481 Info Configuration initialized.
+2024-02-23 00:03:08.2774 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:03:08.3351 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:03:08.3351 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:04:13.8505 Info Shutdown() called. Logger closing...
+2024-02-23 00:04:13.8505 Info Closing old configuration.
+2024-02-23 00:04:13.8667 Info Logger has been closed down.
+2024-02-23 00:04:18.9446 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 00:04:18.9894 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 00:04:18.9894 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 00:04:18.9894 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 00:04:19.0237 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 00:04:19.0706 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:04:19.0846 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 00:04:19.0846 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 00:04:19.1213 Info Configuration initialized.
+2024-02-23 00:04:19.8730 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:04:19.9140 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:04:19.9154 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:06:11.3210 Info Shutdown() called. Logger closing...
+2024-02-23 00:06:11.3210 Info Closing old configuration.
+2024-02-23 00:06:11.3350 Info Logger has been closed down.
+2024-02-23 00:06:18.9235 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 00:06:18.9758 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 00:06:18.9758 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 00:06:18.9781 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 00:06:19.0130 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 00:06:19.0571 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:06:19.0758 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 00:06:19.0758 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 00:06:19.1118 Info Configuration initialized.
+2024-02-23 00:06:19.7207 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:06:19.7517 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:06:19.7517 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:46:28.0056 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 00:46:28.0984 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 00:46:28.0984 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 00:46:28.0984 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 00:46:28.1297 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 00:46:28.1630 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\wshapplication-1\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:46:28.1723 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 00:46:28.1723 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 00:46:28.1918 Info Configuration initialized.
+2024-02-23 00:46:28.8254 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\wshapplication-1\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 00:46:28.8940 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 00:46:28.8940 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
