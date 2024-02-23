@@ -268,3 +268,18 @@
 2024-02-23 00:46:28.8254 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\wshapplication-1\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
 2024-02-23 00:46:28.8940 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
 2024-02-23 00:46:28.8940 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 01:39:41.9530 Info Shutdown() called. Logger closing...
+2024-02-23 01:39:41.9530 Info Closing old configuration.
+2024-02-23 01:39:42.0121 Info Logger has been closed down.
+2024-02-23 01:40:05.6229 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=Console)
+2024-02-23 01:40:05.7097 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=EF)
+2024-02-23 01:40:05.7097 Info Registered target NLog.Targets.Wrappers.AsyncTargetWrapper(Name=trace)
+2024-02-23 01:40:05.7097 Info Registered target NLog.Targets.FileTarget(Name=basic)
+2024-02-23 01:40:05.7500 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-02-23 01:40:05.7931 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\wshapplication-1\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 01:40:05.7931 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: EF
+2024-02-23 01:40:05.7931 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: trace
+2024-02-23 01:40:05.8275 Info Configuration initialized.
+2024-02-23 01:40:07.8912 Info Validating config: TargetNames=basic, Console, ConfigItems=82, FilePath=C:\Users\Lenovo\wshapplication-1\WSHAppDB\WSHAppAPI\bin\Debug\net6.0\NLog.config
+2024-02-23 01:40:07.9348 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=basic). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2024-02-23 01:40:07.9348 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: AsyncWrapper_ColoredConsoleTarget(Name=Console). LoggingRule with NamePattern='*' and Level=Warn has been skipped.

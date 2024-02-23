@@ -1,1 +1,103 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; margin: 0%;}
+body { margin: 0%; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* table css*/
+#mainTable table {
+    width: 98%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 300px;
+    margin-top: 20px;
+    margin-left: 35px;
+
+  }
+
+#mainTable th.mat-header-cell {
+  text-align: left;
+  max-width: 300px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+}
+
+#mainTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 98%;
+
+}
+
+#mainTable td, #mainTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+
+}
+
+#mainTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#mainTable tr:hover {background-color: #ddd;}
+
+#mainTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #212121;
+  color: white;
+  font-size: 100%;
+}
+
+#mainTable td a, a:visited, a:link, a:hover, a:active{
+  color:black;
+}
+
+#span a{
+  margin-right: 0px;
+}
+
+#mainTable button {
+  margin-right: 10px;
+}
+
+/* table css over*/
+
+/* form css */
+.my-form{
+  margin: 7px;
+}
+
+.my-form mat-form-field{
+  margin-bottom: 20px;
+  width: 100%;
+}
+.my-form mat-radio-button{
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+.my-form mat-radio-group {
+  margin-bottom: 15px;
+}
+
+.my-form .mat-mdc-radio-button.mat-accent {
+  --mdc-radio-disabled-selected-icon-color: #000;
+  --mdc-radio-disabled-unselected-icon-color: #000;
+  --mdc-radio-unselected-focus-icon-color: #212121;
+  --mdc-radio-unselected-hover-icon-color: #212121;
+  --mdc-radio-unselected-icon-color: rgba(0, 0, 0, 0.54);
+  --mdc-radio-unselected-pressed-icon-color: rgba(0, 0, 0, 0.54);
+  --mdc-radio-selected-focus-icon-color: #2E7D32;
+  --mdc-radio-selected-hover-icon-color: #2E7D32;
+  --mdc-radio-selected-icon-color: #2E7D32;
+  --mdc-radio-selected-pressed-icon-color: #2E7D32;
+  --mat-mdc-radio-ripple-color: #000;
+  --mat-mdc-radio-checked-ripple-color: #2E7D32;
+}
+
+.my-modal{
+  margin: 7px;
+}
+
+.cdk-overlay-container, .cdk-overlay-pane {
+  z-index: 9999 !important;
+  margin: 0px;
+}
