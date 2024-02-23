@@ -10,7 +10,7 @@ export class ApiService {
   baseUrl! : string;
   constructor(
     public http: HttpClient) {
-    this.baseUrl = "https://localhost:7003/api";
+    this.baseUrl = "https://localhost:7075/api";
   }
 
   wshtransactionsAll(): Observable<any>{
@@ -39,6 +39,14 @@ export class ApiService {
   wshtransactionDelete(wshtransaction: any): Observable<any> {
     console.log(wshtransaction);
     return this.http.delete<any>(this.baseUrl+"/WSHTransaction/"+wshtransaction.transactionId);
+  }
+
+  wshTransactionSumSum(): Observable<any>{
+    return this.http.get<any>(this.baseUrl +"/WSHTransaction/Sumsum")
+  }
+
+  wshTransactionMinMax(min: number, max: number): Observable<any>{
+    return this.http.get<any>(this.baseUrl +"/WSHTransaction/"+min+"/"+max)
   }
 
 }

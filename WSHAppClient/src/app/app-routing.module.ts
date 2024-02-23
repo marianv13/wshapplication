@@ -5,7 +5,7 @@ import { WshtransactionsComponent } from './wshtransactions/wshtransactions.comp
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
-  {path:'/wshtransactions', component: WshtransactionsComponent},
+  {path:'wshtransactions', component: WshtransactionsComponent},
 ];
 
 @NgModule({
