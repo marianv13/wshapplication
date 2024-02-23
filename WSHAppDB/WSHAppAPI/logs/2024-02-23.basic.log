@@ -83,3 +83,8 @@
 2024-02-23 00:06:22.3419|INFO|8|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
 2024-02-23 00:06:22.3419|INFO|8|Microsoft.Hosting.Lifetime|Hosting environment: Development 
 2024-02-23 00:06:22.3419|INFO|8|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\source\repos\WSHAppDB\WSHAppAPI\ 
+2024-02-23 00:46:33.2249|INFO|8|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7075 
+2024-02-23 00:46:33.2753|INFO|8|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5214 
+2024-02-23 00:46:33.2810|INFO|8|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2024-02-23 00:46:33.2810|INFO|8|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2024-02-23 00:46:33.2810|INFO|8|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Lenovo\wshapplication-1\WSHAppDB\WSHAppAPI\ 
